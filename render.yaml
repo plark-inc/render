@@ -1,0 +1,18 @@
+services:
+- type: web
+  name: plark
+  region: virginia
+  plan: starter
+  runtime: image
+  image:
+    url: docker.io/khaledg/plark:latest
+  envVars:
+  - key: GOMEMLIMIT
+    value: 256MiB
+  - key: PB_THUMBS_MAX_WORKERS
+    value: 1
+  disk:
+    name: disk
+    mountPath: /var/data
+    sizeGB: 2
+version: "1"
