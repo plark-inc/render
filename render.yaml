@@ -5,7 +5,7 @@ services:
   plan: starter
   runtime: image
   image:
-    url: docker.io/khaledg/plark:latest
+    url: docker.io/plarkinc/plark:latest
   envVars:
   - key: GOMEMLIMIT
     value: 256MiB
