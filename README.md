@@ -1,6 +1,8 @@
 # Plark Deployment 🚀
+This repository contains the configuration for deploying **Plark** to [Render.com](https://render.com).
 
-This repository contains everything you need to host Plark. Easily deploy and manage your own Plark instance on Render.com
+If you’d like to self-host Plark on a VPS, please check our [Plark Installation Guide](https://plark.com/get-started).
+
 
 ## 🔗 Links
 🌍 [Plark Website](https://plark.com)
